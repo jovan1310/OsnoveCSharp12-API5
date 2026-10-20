@@ -1,0 +1,11 @@
+GET http://localhost:5070/blogs
+
+###
+POST http://localhost:5070/blogs
+Content-Type: application/json
+X-Api-Key: password
+
+{
+    "title": "Third post",
+    "body": "Text of third post"
+}
